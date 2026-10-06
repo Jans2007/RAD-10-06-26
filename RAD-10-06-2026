@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class DataTypes {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("What is your name? ");
+        
+        String name = scanner.nextLine();
+        System.out.print("what is your age? ");
+        
+        int age = scanner.nextInt();
+        scanner.nextLine();
+        
+        System.out.print("What is your address? ");
+        String address = scanner.nextLine();
+
+         System.out.print("What is your height? ");
+        String height = scanner.nextLine();
+        
+        System.out.print("What is your weight? ");
+        double weight = scanner.nextDouble();
+        
+        
+        System.out.print("\t My name is " + name + ", i'm " +age+ "yrs old and i'm from " +address+ " my weight is  " +weight+ "kg and my height is " +height+ "cm. Thank you");
+    }
+}
+
